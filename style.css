@@ -16,6 +16,7 @@ body {
     gap: 40px;
     align-items: center;
 }
+/* AI ends here */
 
 .browser-content {
     background: white;
@@ -346,4 +347,5 @@ body {
         border-left: none;
         border-bottom-color: #2563eb;
     }
+
 }
