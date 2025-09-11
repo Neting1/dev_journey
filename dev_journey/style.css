@@ -1,0 +1,440 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+/* Browser Frame */
+.browser-frame {
+    width: 100%;
+    max-width: 1000px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.browser-header {
+    background: #f8f9fa;
+    padding: 12px 16px;
+    border-bottom: 1px solid #e9ecef;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.browser-controls {
+    display: flex;
+    gap: 8px;
+}
+
+.control {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.control.red {
+    background: #ff5f57;
+}
+
+.control.yellow {
+    background: #ffbd2e;
+}
+
+.control.green {
+    background: #28ca42;
+}
+
+.browser-nav {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 4px;
+}
+
+.nav-btn {
+    width: 24px;
+    height: 24px;
+    background: #e9ecef;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #666;
+}
+
+.address-bar {
+    flex: 1;
+    height: 28px;
+    background: white;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+    margin: 0 12px;
+}
+
+.browser-actions {
+    display: flex;
+    gap: 4px;
+}
+
+.action-btn {
+    width: 24px;
+    height: 24px;
+    background: #e9ecef;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #666;
+}
+
+.browser-content {
+    background: white;
+    min-height: 500px;
+}
+
+/* Navigation */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 48px;
+    background: white;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.nav-links a.active {
+    color: #2563eb;
+}
+
+.theme-toggle {
+    width: 40px;
+    height: 40px;
+    background: #1a1a1a;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px;
+    gap: 48px;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.greeting {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 16px;
+}
+
+.hero-title {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 24px;
+}
+
+.blue-text {
+    color: #2563eb;
+}
+
+.black-text {
+    color: #1a1a1a;
+}
+
+.hero-description {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 32px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.btn-primary {
+    background: #1a1a1a;
+    color: white;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-primary:hover {
+    background: #333;
+}
+
+.btn-secondary {
+    background: #f8f9fa;
+    color: #1a1a1a;
+    border: 1px solid #e9ecef;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+    background: #e9ecef;
+}
+
+.hero-image {
+    flex-shrink: 0;
+}
+
+.profile-circle {
+    width: 280px;
+    height: 280px;
+    border: 4px solid #e9ecef;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f9fa;
+}
+
+.profile-placeholder {
+    width: 200px;
+    height: 200px;
+    background: #d6d3d1;
+    border-radius: 50%;
+    position: relative;
+}
+
+.profile-placeholder::before {
+    content: "👤";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    opacity: 0.5;
+}
+
+/* Skills Section */
+.skills-section {
+    padding: 48px;
+}
+
+.section-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #1a1a1a;
+    margin-bottom: 48px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 48px;
+}
+
+.skill-category h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 16px;
+}
+
+.skill-category ul {
+    list-style: none;
+}
+
+.skill-category li {
+    color: #666;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+/* Experience Section */
+.experience-section {
+    padding: 48px;
+}
+
+.experience-content {
+    display: flex;
+    gap: 48px;
+}
+
+.company-list {
+    width: 200px;
+    border-right: 1px solid #e9ecef;
+    padding-right: 32px;
+}
+
+.company-item {
+    padding: 16px 0;
+    color: #666;
+    cursor: pointer;
+    font-weight: 500;
+    transition: color 0.2s;
+    border-left: 3px solid transparent;
+    padding-left: 16px;
+    margin-left: -16px;
+}
+
+.company-item.active {
+    color: #2563eb;
+    border-left-color: #2563eb;
+}
+
+.experience-details {
+    flex: 1;
+}
+
+.job-header {
+    margin-bottom: 24px;
+}
+
+.job-header h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+}
+
+.duration {
+    color: #666;
+    font-size: 14px;
+}
+
+.job-responsibilities {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.responsibility {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.check {
+    color: #10b981;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+.responsibility p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 20px 10px;
+        gap: 20px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        padding: 32px;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 48px;
+    }
+
+    .profile-circle {
+        width: 200px;
+        height: 200px;
+    }
+
+    .profile-placeholder {
+        width: 140px;
+        height: 140px;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px;
+    }
+
+    .experience-content {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .company-list {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #e9ecef;
+        padding-right: 0;
+        padding-bottom: 16px;
+        display: flex;
+        gap: 16px;
+        overflow-x: auto;
+    }
+
+    .company-item {
+        white-space: nowrap;
+        border-left: none;
+        border-bottom: 3px solid transparent;
+        padding-left: 0;
+        margin-left: 0;
+        padding-bottom: 8px;
+    }
+
+    .company-item.active {
+        border-left: none;
+        border-bottom-color: #2563eb;
+    }
+}
