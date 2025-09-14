@@ -26,11 +26,11 @@ Responsive Design: Mobile-first approach
 
 📁 Project Structure
 portfolio/
-│
-├── index.html          # Main HTML document
-├── style.css           # Stylesheet (to be implemented)
-├── images/             # Resource directory                    
-|       |               # Image assets
+│ <br>
+├── index.html <br>         # Main HTML document
+├── style.css   <br>        # Stylesheet (to be implemented)
+├── images/      <br>       # Resource directory                    
+|       |         <br>      # Image assets
 │   │   └── profile.jpg # Profile picture
 │   └── icons/          # Icon assets
 │
