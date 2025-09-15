@@ -24,7 +24,7 @@ JavaScript: Interactive elements and dynamic content
 Responsive Design: Mobile-first approach
 
 
-📁 Project Structure
+📁 Project Structure <br>
 portfolio/ <br>
 index.html ----  # Main HTML document <br>
 style.css  ----  # Stylesheet (to be implemented)<br>
