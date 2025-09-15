@@ -42,7 +42,7 @@ Installation
 Clone the repository:
 
 # bash
-git clone https://github.com/xeonsysitenterprise-prog/dev_journey.git
+git clone https://github.com/Neting1/dev_journey.git
 
 Navigate to the project directory:
 
