@@ -28,9 +28,9 @@ Responsive Design: Mobile-first approach
 portfolio/ <br>
 index.html ----  # Main HTML document <br>
 style.css  ----  # Stylesheet (to be implemented)<br>
-images/    ----  # Resource directory <br>                    
-profile.jpg             # Profile picture
-README.md               # Project documentation
+images/    ----  # Resource directory                   
+profile.jpg----  # Profile picture <br>
+README.md  ----  # Project documentation
 
 🚀 Getting Started
 Prerequisites
