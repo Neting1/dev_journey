@@ -25,7 +25,7 @@ Responsive Design: Mobile-first approach
 
 
 📁 Project Structure
-portfolio/
+portfolio/ <br>
 index.html <br>         # Main HTML document
 style.css   <br>        # Stylesheet (to be implemented)
 images/      <br>       # Resource directory                    
