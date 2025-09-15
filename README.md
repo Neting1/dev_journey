@@ -29,8 +29,8 @@ portfolio/ <br>
 index.html ----  # Main HTML document <br>
 style.css  ----  # Stylesheet (to be implemented)<br>
 images/    ----  # Resource directory                   
-profile.jpg---- # Profile picture 
-README.md               # Project documentation
+profile.jpg----  # Profile picture <br>
+README.md  ----  # Project documentation
 
 🚀 Getting Started
 Prerequisites
